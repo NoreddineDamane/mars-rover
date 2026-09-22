@@ -72,3 +72,9 @@ sections for current status before assuming any of these are settled:
 
 When resuming work on this spec, treat these as still open unless `spec.md`
 has been updated to record a human decision.
+
+## Erreurs récurrentes
+
+Lorsqu’une même erreur se répète deux fois, propose une instruction courte et précise pour l’éviter. Appuie-toi sur les erreurs observées et fais valider cette instruction avant de l’ajouter à CLAUDE.md.
+
+Si une instruction devient obsolète, propose sa correction ou son retrait et attends la validation avant de modifier le fichier.
