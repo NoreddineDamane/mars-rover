@@ -127,7 +127,8 @@ Origine : nécessaire pour rendre EX-02 (et par extension EX-03 à EX-07) vérif
 Exigences concernées : EX-02, EX-03, EX-04, EX-05, EX-06, EX-07.
 Conséquences : sans cette convention (par exemple, quel axe et quel sens correspondent à N, S, E, W, et si elle doit correspondre à une convention attendue par le système appelant), il n'est pas possible de vérifier de façon univoque le résultat d'une avancée sur des coordonnées concrètes.
 Décision attendue : le Product Owner doit préciser ou valider la convention de repère (correspondance entre N/S/E/W et le sens de variation de x et y), en tenant compte le cas échéant de ce qu'attend le système appelant.
-Statut : ouverte.
+Décision humaine : le Product Owner (auteur non précisé) indique le 2026-09-22 ne pas pouvoir encore répondre à cette question ; la réserve reste ouverte.
+Statut : ouverte — bloquant pour le passage à la phase Build sur EX-02 à EX-07 : sans cette convention, l'avancée du rover et l'état final restitué ne peuvent pas être vérifiés sur des coordonnées concrètes, ni donc implémentés de façon testable. Reste visible avant le passage en Build.
 
 ## Questions ouvertes
 
